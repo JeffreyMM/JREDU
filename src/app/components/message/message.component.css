@@ -1,0 +1,13 @@
+#container{
+  display: flex;
+}
+#left{
+  width: 200px;
+  height: 500px;
+  background-color: cornflowerblue;
+}
+#right{
+  flex-grow: 1;
+  height: 500px;
+  background-color: khaki;
+}
